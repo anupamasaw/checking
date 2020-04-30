@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "192.168.0.55:5000/justme/myweb"
+    registry = "192.168.0.196:5000/justme/myweb"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Sandeep0045/wip-my.git'
+        git 'https://github.com/anupamasaw/checking.git'
       }
     }
 
